@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgray; */
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+}
+
+.form {
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    background-color: black;
+    padding: 20px;
+}
+
+.form h1 {
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-family: 'teko';
+    color: white;
+    text-transform: uppercase;
+}
+
+.form h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'teko';
+    margin-top: 16px;
+    /* margin-bottom: 2px; */
+    display: block;
+    color: white;
+    text-transform: uppercase;
+}
+
+.form .input {
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-radius: 4px;
+    background-color: rgba(126, 126, 126, 0.134);
+    /* opacity: 0.5; */
+    padding: 4px;
+    padding-left: 8px;
+    margin: 4px 0;
+    color: rgba(255, 255, 255, 0.82);
+    display: block;
+}
+
+::placeholder {
+    color: white;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    font-family: 'teko';
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-right: 6px;
+    padding: 2px 6px;
+    color: white;
+    background-color: rgb(64, 63, 63);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.button:hover {
+    transition: 0.3s;
+    background-color: white;
+    color: rgb(64, 63, 63);
+}
